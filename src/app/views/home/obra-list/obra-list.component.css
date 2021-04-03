@@ -1,0 +1,23 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+    padding-top: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+.mat-card {
+  background-color: seagreen;
+  text-align-last:center;
+  width: 300px;
+  margin-bottom: 30px;
+  margin-inline: 10px;
+  display: inline-block;
+}
+
+:host ::ng-deep .mat-ink-bar {
+  background-color: seagreen !important;
+}
+
+:host ::ng-deep .mat-tab-label-content {
+  color: black;
+}
